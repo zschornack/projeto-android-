@@ -5,6 +5,13 @@
     src: url(fonts/idroid.otf);
 }
 
+@media only screen and (max-width:500px){
+    nav a{
+        float: none;
+        display: block;
+    }
+}
+
 :root{
     --cor0:#ebe5c5;
     --cor1:#83e1ad;
